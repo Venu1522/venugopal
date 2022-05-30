@@ -1,0 +1,61 @@
+.sty{
+	font-family: 'Metal Mania', cursive;
+	color: gradient;
+}
+body{
+	background-image:url(blue.jpg);
+	background-size: cover;
+}
+.lettercolor{
+    background: whitesmoke;
+   
+}
+.sty {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+    font-size: 12px;
+  transition: 0.3s;
+  padding: 2px 12px;
+   margin: 2px 3px;
+}
+
+.sty:hover {
+  background-color: slategrey;
+  color: yellow;
+}
+.handimg{
+	
+	overflow: hidden;
+	margin-bottom: 20px;
+	transition: all .6s ease;
+}
+.handimg:hover{
+	transform: scale(1.02);
+}
+.handimg img{
+	object-fit: cover;
+}
+.nav{
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+   }
+
+
+.nav ul li{
+	list-style:none ;
+	display: inline-block;
+	margin: 0 15px;
+	font-weight: bold;
+	margin: center;
+
+}
+.nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+

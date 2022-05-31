@@ -1,3 +1,7 @@
+
+.int{
+	font-family: monospace;
+}
 .sty{
 	font-family: 'Metal Mania', cursive;
 	color: gradient;
@@ -17,12 +21,16 @@ body{
     font-size: 12px;
   transition: 0.3s;
   padding: 2px 12px;
-   margin: 2px 3px;
+   margin: 10px 3px;
+   margin-left: 40%;
 }
 
 .sty:hover {
   background-color: slategrey;
   color: yellow;
+}
+.st{
+	 margin-left: 40%;
 }
 .handimg{
 	
@@ -35,27 +43,13 @@ body{
 }
 .handimg img{
 	object-fit: cover;
-}
-.nav{
-	margin: auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	
-   }
+	transform: rotate(25deg);
 
 
-.nav ul li{
-	list-style:none ;
-	display: inline-block;
-	margin: 0 15px;
-	font-weight: bold;
-	margin: center;
+}
 
+.d-flex{
+	margin-right: 20px;
 }
-.nav ul li a{
-	text-decoration: none;
-	color: black;
-	font-size: 15px;
-}
+
 

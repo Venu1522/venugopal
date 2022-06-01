@@ -1,0 +1,6 @@
+.hov: hover{
+transform: scale(1.02);
+background-color: slategrey;
+color: yellow;
+
+		}

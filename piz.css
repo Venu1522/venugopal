@@ -1,0 +1,64 @@
+body{
+	background-image: url(bgg.jpg);
+	background-size: cover;
+}
+
+a:hover{
+	color:black ;
+}
+a:hover{
+	text-decoration: none;
+}
+.main-btn:hover{
+	background-color:transparent ;
+	color:whitesmoke ;
+}
+.main-btn{
+	display: inline-block;
+	padding: 0.62rem 1.875rem;
+	line-height: 1.5625rem;
+	background-color: yellow;
+	
+}
+.navigation-wrap{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	z-index: 1000;
+	-webkit-trasition:all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+	padding: 0 0.625rem;
+	transition: all 0.3s linear;
+}
+.navbar-toggler:focus{
+	outline: unset;
+	border: unset;
+	box-shadow: none;
+}
+.nav-link{
+	font-size: 0.9375rem;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: white;
+	letter-spacing: 1px;
+}
+.nav-link:hover,
+.nav-link.active{
+	color: yellow;
+}
+.navigation-wrap .main-btn{
+	padding: 0.3125rem 1.4375rem;
+	box-shadow: none;
+	margin-left: 0.625rem;
+}
+.navigation-wrap.scroll-on{
+	position: fixed;
+	background-color: darkred;
+	top: 0;
+	left:0;
+	width: 100%;
+	box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
+	transition: all 0.15s ease-in-out;
+}

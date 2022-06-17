@@ -1,0 +1,37 @@
+ .header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Miltonian', cursive;
+}
+.active {
+  background-color: black;
+  color: white;
+}
+body{
+  background-image: url(foodd.jpg);
+  background-size: cover;
+
+}
+.header  a:hover{
+  color: yellow;
+
+}
+h2{
+font-family: 'Griffy', cursive;
+color:  burlywood;
+}
+#footer {
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+}
+.fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}

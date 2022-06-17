@@ -1,0 +1,30 @@
+
+body{
+
+	
+  background-image: url(foodd.jpg);
+  background-size: cover;
+
+}
+  button {
+  background-color: blueviolet;
+  color: white;
+  padding: 6px 112px;
+   margin: 0px 0px;
+  border: none;
+  cursor: pointer;
+}
+h4{
+	font-family: 'Gentium Plus', serif;
+}
+button:hover {
+  opacity: 0.8;
+ 
+}
+
+
+
+
+
+
+
